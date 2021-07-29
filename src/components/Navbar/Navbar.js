@@ -18,9 +18,7 @@ const Navbar = () => {
     <IconContext.Provider value={{ color: '#fff' }}>
       <nav className='navbar'>
         <div className='nav-container'>
-          <a href='#home' className='nav-logo'>
-            Mohammad Rafey
-          </a>
+          <h1 className='nav-logo'>Mohammad Rafey</h1>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link
