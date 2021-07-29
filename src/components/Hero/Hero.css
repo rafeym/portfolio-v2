@@ -1,0 +1,19 @@
+.container h1 span {
+  color: #6761ad;
+}
+
+.container p {
+  margin-bottom: 2%;
+  font-weight: 200;
+}
+
+.container p span {
+  color: #6761ad;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+  .container .hero-title {
+    font-size: 100px !important;
+  }
+}

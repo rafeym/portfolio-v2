@@ -1,0 +1,48 @@
+.container .proj-h1 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: 200;
+  color: #11101d;
+}
+
+.proj-tile {
+  background: #11101d;
+  color: #fff;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: crosshair;
+}
+
+.cta-btn {
+  padding: 8px 10px;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 20px !important;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+}
+
+.tech-icons li {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .proj-tile {
+    padding: 50px !important;
+  }
+}
