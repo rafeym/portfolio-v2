@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 
+import { Link } from 'react-scroll'
+
 import './Footer.css'
 
 const Footer = () => {
@@ -28,13 +30,40 @@ const Footer = () => {
         </div>
         <ul className='list'>
           <li>
-            <a href='#home'>Home</a>
+            <Link
+              activeClass='active'
+              to='home'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1200}
+            >
+              <div>Home</div>
+            </Link>
           </li>
           <li>
-            <a href='#about'>About</a>
+            <Link
+              activeClass='active'
+              to='projects'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1200}
+            >
+              <div>Projects</div>
+            </Link>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <Link
+              activeClass='active'
+              to='about'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1200}
+            >
+              <div>About</div>
+            </Link>
           </li>
         </ul>
       </footer>
