@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaEnvelope, FaLinkedin, FaFileAlt } from 'react-icons/fa'
 
 import { Link } from 'react-scroll'
 
@@ -26,6 +26,13 @@ const Footer = () => {
           </a>
           <a href='mailto:mohammadrafey0@gmail.com'>
             <FaEnvelope className='social-icon' />
+          </a>
+          <a
+            href='https://drive.google.com/file/d/1IByutUUjWtDTKX-ABX5-qWfA6yttmjTi/view?usp=sharing'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaFileAlt className='social-icon' />
           </a>
         </div>
         <ul className='list'>
