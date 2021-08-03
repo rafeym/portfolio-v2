@@ -49,9 +49,9 @@ const Project = () => {
                     </p>
                     <ul className='tech-icons'>
                       <li>React</li>
-                      <li>APIs</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
+                      <li>Next</li>
+                      <li>Mongo</li>
+                      <li>Express</li>
                     </ul>
                     <a
                       href='https://link-bucket-af5wxq2gq-rafeym.vercel.app/'
