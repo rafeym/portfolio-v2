@@ -3,7 +3,7 @@ import './Project.css'
 
 const Project = () => {
   return (
-    <div className='hero is-small' id='projects'>
+    <div className='hero is-large' id='projects'>
       <div className='hero-body'>
         <div className='container has-text-left'>
           <h1 className='title is-size-2-desktop is-size-3-touch proj-h1'>
@@ -14,6 +14,41 @@ const Project = () => {
           <div class='tile is-ancestor'>
             <div class='tile is-vertical'>
               <div class='tile'>
+                <div class='tile is-parent'>
+                  <article class='tile has-text-centered is-child notification proj-tile'>
+                    <p class='title is-size-3-touch'>Shantie's Bakery</p>
+                    <p class='subtitle is-size-6-touch'>
+                      Full stack e-commerce web application that allows users to
+                      browse and purchase products. Admin dashboard to fulfill
+                      orders and manage inventory.
+                    </p>
+                    <ul className='tech-icons'>
+                      <li>React</li>
+                      <li>Mongo</li>
+                      <li>Express</li>
+                      <li>Node</li>
+                    </ul>
+                    <div className='btn-container'>
+                      <a
+                        href='https://shanties-bakery-demo.vercel.app/'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href='https://github.com/rafeym/shanties-bakery-demo'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Code
+                      </a>
+                    </div>
+                  </article>
+                </div>
+
                 <div class='tile is-parent'>
                   <article class='tile has-text-centered is-child notification proj-tile'>
                     <p class='title is-size-3-touch'>Covid-19 Tracker</p>
@@ -28,14 +63,24 @@ const Project = () => {
                       <li>HTML</li>
                       <li>CSS</li>
                     </ul>
-                    <a
-                      href='https://frosty-swirles-a443db.netlify.app/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='cta-btn'
-                    >
-                      Live Demo
-                    </a>
+                    <div className='btn-container'>
+                      <a
+                        href='https://frosty-swirles-a443db.netlify.app/'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href='https://github.com/rafeym/covid-19-tracker-app'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Code
+                      </a>
+                    </div>
                   </article>
                 </div>
 
@@ -53,33 +98,24 @@ const Project = () => {
                       <li>Mongo</li>
                       <li>Express</li>
                     </ul>
-                    <a
-                      href='https://link-bucket-af5wxq2gq-rafeym.vercel.app/'
-                      target='_blank'
-                      rel='noreferrer'
-                      className='cta-btn'
-                    >
-                      Live Demo
-                    </a>
-                  </article>
-                </div>
-
-                <div class='tile is-parent'>
-                  <article class='tile has-text-centered is-child notification proj-tile'>
-                    <p class='title is-size-3-touch'>Expense Tracker</p>
-                    <p class='subtitle is-size-6-touch'>
-                      A fullstack React application that allows a user to keep
-                      track and be able to manage their expenses and income.
-                    </p>
-                    <ul className='tech-icons'>
-                      <li>React</li>
-                      <li>Mongo</li>
-                      <li>Express</li>
-                      <li>Node</li>
-                    </ul>
-                    <a href='#projects' className='cta-btn disabled'>
-                      Coming Soon
-                    </a>
+                    <div className='btn-container'>
+                      <a
+                        href='https://link-bucket-af5wxq2gq-rafeym.vercel.app/'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Live Demo
+                      </a>
+                      <a
+                        href='https://github.com/rafeym/link-bucket'
+                        className='cta-btn'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        Code
+                      </a>
+                    </div>
                   </article>
                 </div>
               </div>

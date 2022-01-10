@@ -28,7 +28,7 @@ const Footer = () => {
             <FaEnvelope className='social-icon' />
           </a>
           <a
-            href='https://drive.google.com/file/d/1IByutUUjWtDTKX-ABX5-qWfA6yttmjTi/view?usp=sharing'
+            href='https://drive.google.com/file/d/1URrtx4x3navBAYAtBvpKnsOz9YPjHgBx/view?usp=sharing'
             target='_blank'
             rel='noreferrer'
           >
@@ -60,21 +60,9 @@ const Footer = () => {
               <div>Projects</div>
             </Link>
           </li>
-          <li>
-            <Link
-              activeClass='active'
-              to='about'
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1200}
-            >
-              <div>About</div>
-            </Link>
-          </li>
         </ul>
       </footer>
-      <div className='small-footer'>&copy; Mohammad Rafey 2021</div>
+      <div className='small-footer'>&copy; Mohammad Rafey 2022</div>
     </>
   )
 }

@@ -16,6 +16,12 @@
   cursor: crosshair;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cta-btn {
   padding: 8px 10px;
   color: #fff !important;
@@ -24,13 +30,15 @@
   border: 2px solid #fff;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 10px;
+  width: 50%;
 }
 
 .tech-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 10%;
   flex-wrap: wrap;
 }

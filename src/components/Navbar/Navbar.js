@@ -48,7 +48,7 @@ const Navbar = () => {
                 </div>
               </Link>
             </li>
-            <li className='nav-item' onClick={handleClick}>
+            {/* <li className='nav-item' onClick={handleClick}>
               <Link
                 activeClass='active'
                 to='about'
@@ -61,7 +61,7 @@ const Navbar = () => {
                   About
                 </div>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <div className='nav-icon' onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
